@@ -27,6 +27,7 @@ const carro1 = {
   exhibido: false,
 };
 
+
 const construirChasis = async (carro) => {
   const vestidura = (carro) => {
     return new Promise((resolve, reject) => {
